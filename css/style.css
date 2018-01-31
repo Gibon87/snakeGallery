@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  width: 1020px;
+}
+.container .box {
+  display: inline-block;
+  height: 240px;
+  position: relative;
+  width: 240px;
+  list-style: none;
+}
+.container .box img {
+  width: 100%;
+}
+.container .box.snake {
+  position: relative;
+  overflow: hidden;
+}
+.overlay {
+  background: rgba(0,0,0,0.6);
+  height: 100%;
+  left:0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+.overlay h2 {
+  color: #fff;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  text-transform: uppercase;
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
