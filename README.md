@@ -1,6 +1,5 @@
 <h1>Snake Gallery</h1>
-
-Demo: 
+ 
 
 <h2>Used:</h2>
 <ul>
